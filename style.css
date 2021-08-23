@@ -1,0 +1,59 @@
+.clock-container {
+    margin:auto;
+    width: 40vw;
+    height:40vw;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.center, .ccenter {
+    position:absolute;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+} 
+
+.center {
+    background-color:black;
+    height: 5%;
+    width: 5%;
+    border: 2px solid yellow;
+}
+
+.ccenter {
+    background-color:yellow;
+    height: 50%;
+    width: 50%;
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    height:42%;
+    width:1%;
+    background-color: yellow;
+    border-radius: 15px;
+    transform: translateX(-50%);
+}
+
+.hour {
+    background-color:black;
+    height:25%;
+    width: 1.5%;
+}
+
+.minute {
+    background-color:yellow;
+    height:35%;
+    width: 1.2%;
+}
+
+.second {
+    background-color:red;
+    height:45%;
+}
